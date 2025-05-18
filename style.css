@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f3f3f3;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    transition: background 0.5s ease;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .moods button {
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .moods button:hover {
+    transform: scale(1.1);
+  }
+  
+  .music-list {
+    margin-top: 30px;
+  }
+  
+  .music-list a {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
